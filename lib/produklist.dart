@@ -11,6 +11,10 @@ class _ProdukListState extends State<ProdukList> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+        appBar: AppBar(
+        title: Text('List Produk'),
+      ),
+      
       backgroundColor: Colors.white,
       body: Stack(
           children: <Widget>[
